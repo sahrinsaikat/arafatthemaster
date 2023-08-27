@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    .form-label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .form-input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      transition: border-color 0.2s;
+    }
+    
+    .form-input:focus {
+      border-color: #007bff;
+    }
+    
+    .form-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .form-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSc5bH2GW8Shi6f3CMP3Qh8nyCLD-q4w1nqvNQiWCU3dx74TCg/formResponse">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" name="entry.2005620554" class="form-input" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" name="entry.1045781291" class="form-input" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" id="address" name="entry.1065046570" class="form-input" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone number</label>
+        <input type="tel" id="phone" name="entry.1166974658" class="form-input" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="comments" class="form-label">Comments</label>
+        <textarea id="comments" name="entry.839337160" class="form-input" rows="4" required></textarea>
+      </div>
+      
+      <button type="submit" class="form-button">Send</button>
+    </form>
+  </div>
+</body>
+</html>
